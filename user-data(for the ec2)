@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo apt update
+sudo apt install nodejs -y
+sudo apt install awscli -y
+git clone  (url of repo github for the site)
+cd project-devops-aws
+sudo aws s3 sync s3:(where the access key is)  (where to put in ec2)
+node app.js

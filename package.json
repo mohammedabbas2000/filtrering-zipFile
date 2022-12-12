@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "aws-sdk": "^2.1261.0",
+    "csv": "^6.2.3",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

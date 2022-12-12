@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        background-color: rgb(6, 26, 27);
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        max-width: 500px;
+        margin: 60px auto;
+    }
+    .container h1 {
+        text-align: center;
+        color: white;
+    }
+    form {
+        background-color: white;
+        padding: 30px;
+    }
+    form .input-group {
+        margin-bottom: 15px;
+    }
+    form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    form input {
+        padding: 12px 20px;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+    .submit-btn {
+        width: 100%;
+        border: none;
+        background: rgb(37, 83, 3);
+        font-size: 18px;
+        color: white;
+        border-radius: 3px;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+<title>Upload File</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+    <div class="input-group">
+        <h1>Upload  zip files to S3 to filter</h1>
+    <form action="fileupload" method="post" enctype="multipart/form-data">
+        <label for="filetoupload" </label>
+        <input type="file" name="filetoupload">
+        <label " " </label>
+        <input type="submit" value="Upload">
+    </div>
+    </form>
+</div>
+
+</body>
+</html>
